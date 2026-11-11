@@ -33,7 +33,7 @@ while i <= 50:
 
 # 6. Usa un bucle for para recorrer el diccionario {"name": "Brais", "age": 37, "country": "Galicia"} e imprime las claves.
 dictionary = {"name": "Brais", "age": 37, "country": "Galicia"}
-for key in dictionary.keys():
+for key in dictionary:
     print(key)
 
 # 7. Escribe un programa que use un bucle while para imprimir los números pares entre 1 y 20.
